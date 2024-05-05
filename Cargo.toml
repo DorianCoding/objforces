@@ -1,0 +1,19 @@
+[package]
+name = "objforces"
+version = "0.1.0"
+edition = "2021"
+authors = ["DorianCoding"]
+license = "GPL-3.0-only"
+keywords = ["newton","physics","forces","acceleration"]
+categories = ["mathematics","no-std::no-alloc","science"]
+description = "Allows to calculate mouvement of objects based on forces on a 3D axis"
+repository = "https://github.com/DorianCoding/objforces"
+rust-version = "1.73"
+[dependencies]
+libm = "0.2.8"
+[features]
+std = []
+[lints.rust]
+unsafe_code = "warn"
+[badges]
+maintenance = {status = "passively-maintained" }
